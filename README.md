@@ -36,10 +36,15 @@ Raw X-ray → Grayscale → CLAHE → Edge Detection → Feature Extraction
 3. Model Specification
 python
 RandomForestClassifier(
+
     n_estimators=150,
+   
     max_depth=12,
+   
     min_samples_split=3,
+   
     class_weight='balanced',
+   
     random_state=42
 )
 
@@ -58,17 +63,17 @@ RandomForestClassifier(
    5-Fold CV:	85% ± 4%   
 
 # ⚡ Advantages vs Deep Learning
-  Aspect	         Random Forest	      CNN
+  'Aspect	         Random Forest	      CNN'
   
-  Accuracy	         86%	              89%
+  'Accuracy	         86%	              89%'
   
-  Speed	             0.1s/image	          0.5s/image
+  'Speed	         0.1s/image	          0.5s/image'
   
-  Interpretability	 Feature importance	  Black box
+  'Interpretability	 Feature importance	  Black box'
   
-  Data Required  	 200+ images	      1000+ images
+  'Data Required  	 200+ images	      1000+ images'
   
-  Hardware	         CPU	              GPU recommended
+  'Hardware	         CPU	              GPU recommended'
 
 # 📋 Clinical Applications
  *Triage Support: Prioritize urgent cases
