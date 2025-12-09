@@ -44,13 +44,13 @@ RandomForestClassifier(
 )
 
 # 📈 Performance Metrics
-   Metric	    Value
-   Accuracy	    86%
-   Precision	85%
-   Recall	    87%
-   F1-Score	    86%
-   AUC-ROC	    90%
-   5-Fold CV	85% ± 4%
+   Metric	    Value  
+   Accuracy	    86%     
+   Precision	85%             
+   Recall	    87%   
+   F1-Score	    86%    
+   AUC-ROC	    90%    
+   5-Fold CV	85% ± 4%   
 
 # ⚡ Advantages vs Deep Learning
   Aspect	         Random Forest	      CNN
