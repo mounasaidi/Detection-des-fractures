@@ -63,17 +63,17 @@ RandomForestClassifier(
    5-Fold CV:	85% ± 4%   
 
 # ⚡ Advantages vs Deep Learning
-  'Aspect	         Random Forest	      CNN'
+  'Aspect&nbsp;&nbsp;&nbsp;&nbsp;Random Forest&nbsp;&nbsp;&nbsp;CNN'
   
-  'Accuracy	         86%	              89%'
+  'Accuracy&nbsp;&nbsp;&nbsp;&nbsp;86%&nbsp;&nbsp;&nbsp;89%'
   
-  'Speed	         0.1s/image	          0.5s/image'
+  'Speed&nbsp;&nbsp;&nbsp;&nbsp;0.1s/image&nbsp;&nbsp;&nbsp;0.5s/image'
   
-  'Interpretability	 Feature importance	  Black box'
+  'Interpretability&nbsp;&nbsp;&nbsp;&nbsp;Feature importance&nbsp;&nbsp;&nbsp;Black box'
   
-  'Data Required  	 200+ images	      1000+ images'
+  'Data Required&nbsp;&nbsp;&nbsp;&nbsp;200+ images&nbsp;&nbsp;&nbsp;1000+ images'
   
-  'Hardware	         CPU	              GPU recommended'
+  'Hardware&nbsp;&nbsp;&nbsp;&nbsp;CPU&nbsp;&nbsp;&nbsp;GPU recommended'
 
 # 📋 Clinical Applications
  *Triage Support: Prioritize urgent cases
