@@ -44,20 +44,30 @@ RandomForestClassifier(
 )
 
 # 📈 Performance Metrics
-   Metric	    Value  
-   Accuracy	    86%     
-   Precision	85%             
-   Recall	    87%   
-   F1-Score	    86%    
-   AUC-ROC	    90%    
-   5-Fold CV	85% ± 4%   
+   Metric:    
+   Accuracy:    86% 
+   
+   Precision:	85% 
+   
+   Recall:	    87%  
+   
+   F1-Score:	86%
+   
+   AUC-ROC:	    90%
+   
+   5-Fold CV:	85% ± 4%   
 
 # ⚡ Advantages vs Deep Learning
   Aspect	         Random Forest	      CNN
+  
   Accuracy	         86%	              89%
+  
   Speed	             0.1s/image	          0.5s/image
+  
   Interpretability	 Feature importance	  Black box
+  
   Data Required  	 200+ images	      1000+ images
+  
   Hardware	         CPU	              GPU recommended
 
 # 📋 Clinical Applications
