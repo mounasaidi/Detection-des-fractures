@@ -52,26 +52,6 @@ F1-Score	86%
 AUC-ROC	90%
 5-Fold CV	85% ± 4%
 
-# 🚀 Quick Start
-Installation
-bash
-git clone https://github.com/username/fracture-detection-rf.git
-cd fracture-detection-rf
-pip install -r requirements.txt
-Basic Usage
-python
-from src.fracture_detector import FractureDetector
-
-# Initialize detector
-detector = FractureDetector.load('models/random_forest_model.pkl')
-
-# Predict on new image
-result = detector.predict('path/to/xray.jpg')
-print(f"Fracture: {result['prediction']}, Confidence: {result['probability']:.1%}")
-Training Pipeline
-bash
-python train.py --data_dir ./data --output_dir ./models
-
 # ⚡ Advantages vs Deep Learning
 Aspect	Random Forest	CNN
 Accuracy	86%	89%
